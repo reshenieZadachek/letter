@@ -22,11 +22,13 @@ const AppContainer = styled.div`
 function App() {
   const [ activate, setActivate ] = useState(false)
   return (
-    <AppContainer>
-      <FallingPetals />
-      <BackgroundMusic activate={activate} setActivate={setActivate} />
-      {activate && <Letter />}
-    </AppContainer>
+    
+        <AppContainer>
+          <FallingPetals />
+          <BackgroundMusic activate={activate} setActivate={setActivate} />
+          {activate && <Letter />}
+        </AppContainer>
+        
   );
 }
 
