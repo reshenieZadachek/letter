@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%7Bletter%7D/static/css/main.14620bc9.css",
+    "main.js": "/%7Bletter%7D/static/js/main.f81c9bb8.js",
+    "static/js/453.4d3dcdec.chunk.js": "/%7Bletter%7D/static/js/453.4d3dcdec.chunk.js",
+    "static/media/Navsegda.mp3": "/%7Bletter%7D/static/media/Navsegda.f504d7986be72c826cd6.mp3",
+    "static/media/3.jpg": "/%7Bletter%7D/static/media/3.c5430303eb2a93ab7f2e.jpg",
+    "static/media/5.jpg": "/%7Bletter%7D/static/media/5.1c1ced9f30c787da56ad.jpg",
+    "static/media/2.jpg": "/%7Bletter%7D/static/media/2.f9a6c72006c84c20ee1d.jpg",
+    "static/media/1.jpg": "/%7Bletter%7D/static/media/1.3cb7e155cb08f9d47fd4.jpg",
+    "static/media/4.jpg": "/%7Bletter%7D/static/media/4.6478131de187a091545d.jpg",
+    "static/media/bg.jpg": "/%7Bletter%7D/static/media/bg.89407e5bda188c4bed10.jpg",
+    "index.html": "/%7Bletter%7D/index.html",
+    "main.14620bc9.css.map": "/%7Bletter%7D/static/css/main.14620bc9.css.map",
+    "main.f81c9bb8.js.map": "/%7Bletter%7D/static/js/main.f81c9bb8.js.map",
+    "453.4d3dcdec.chunk.js.map": "/%7Bletter%7D/static/js/453.4d3dcdec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14620bc9.css",
+    "static/js/main.f81c9bb8.js"
+  ]
+}
