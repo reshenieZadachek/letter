@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef, useState } from 'react';
+import styled from 'styled-components';
+import Letter from './components/Letter';
+import BackgroundMusic from './components/BackgroundMusic';
+import FallingPetals from './components/FallingPetals';
+
+
+const AppContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+  max-width: 1200px;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+`;
 
 function App() {
+  const [ activate, setActivate ] = useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <FallingPetals />
+      <BackgroundMusic activate={activate} setActivate={setActivate} />
+      {activate && <Letter />}
+    </AppContainer>
   );
 }
 
